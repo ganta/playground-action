@@ -1,0 +1,7 @@
+name: Playground
+description: This is the playground for GitHub Actions
+runs:
+  using: composite
+  steps:
+    - run: echo "Hello, world!"
+      shell: bash
