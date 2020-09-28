@@ -3,5 +3,6 @@ description: This is the playground for GitHub Actions
 runs:
   using: composite
   steps:
+    - uses: actions/checkout@v2
     - run: echo "Hello, world!"
       shell: bash
