@@ -6,4 +6,4 @@ jobs:
   playground-job:
     runs-on: ubuntu-latest
     steps:
-      - uses: ganta/playground-action@master
+      - run: ip -4 a
