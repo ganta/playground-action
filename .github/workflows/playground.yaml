@@ -6,4 +6,4 @@ jobs:
   playground-job:
     runs-on: ubuntu-latest
     steps:
-      - run: ip -4 a
+      - run: ip -4 addr show dev eth0
