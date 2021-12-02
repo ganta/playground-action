@@ -6,4 +6,8 @@ jobs:
   playground-job:
     runs-on: ubuntu-latest
     steps:
-      - uses: ganta/playground-action@master
+      - uses: actions/checkout@v2
+      - uses: ganta/setup-node@174a838591e7b2a606b2a3e9cc08c14a26aa0261
+        with:
+          node-version-file: '.tool-versions'
+      - run: node --version
