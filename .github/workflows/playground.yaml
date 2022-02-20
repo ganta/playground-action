@@ -1,6 +1,9 @@
 name: Playground workflow
 
-on: push
+on:
+  push:
+    branches-ignore:
+      - 'abc/**'
 
 jobs:
   playground-job:
