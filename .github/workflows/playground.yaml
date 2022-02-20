@@ -1,7 +1,7 @@
 name: Playground workflow
 
 on:
-  push:
+  pull_request:
     branches-ignore:
       - 'abc/**'
 
