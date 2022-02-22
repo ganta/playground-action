@@ -1,9 +1,12 @@
 name: Playground workflow
 
-on: push
+on:
+  pull_request:
+    branches:
+      - branches-filter
 
 jobs:
   playground-job:
     runs-on: ubuntu-latest
     steps:
-      - uses: ganta/playground-action@master
+      - uses: ganta/playground-action@main
