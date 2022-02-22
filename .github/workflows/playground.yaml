@@ -3,7 +3,7 @@ name: Playground workflow
 on:
   pull_request:
     branches:
-      - main
+      - test
 
 jobs:
   playground-job:
